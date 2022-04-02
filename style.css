@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body section {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 22%;
+  height: 65%;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.img-equilibrium {
+  width: 70%;
+  border-radius: 8px;
+}
+
+/* TEXT CONTENTS*/
+
+.heading-content {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 18px 0px 18px 0px;
+}
+
+.paragraph-content {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  display: inline-block;
+}
+
+/* ETH AND TIME SECTION*/
+
+.container-eth {
+  display: flex;
+  align-items: center;
+}
+
+.container-time {
+  display: flex;
+  align-items: center;
+}
+
+.container-eth-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 14px 0px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.price-eth {
+  color: hsl(178, 100%, 50%);
+  margin-left: 6px;
+}
+
+.time-left {
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+  margin-left: 6px;
+}
+
+/* AUTHOR SECTION*/
+.container-creator {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.img-avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.container-creator-text {
+  margin-left: 10px;
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+}
